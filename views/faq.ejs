@@ -1,0 +1,13 @@
+<%- include('header') %>
+
+<main>
+  <h1>Frequently Asked Questions</h1>
+  <ul>
+    <% faqs.forEach(faq => { %>
+      <li><strong>Q: <%= faq.question %></strong></li>
+      <li>A: <%= faq.answer %></li>
+    <% }); %>
+  </ul>
+</main>
+
+<%- include('footer') %>

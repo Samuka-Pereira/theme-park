@@ -1,0 +1,18 @@
+<%- include('header') %>
+
+<main>
+  <h1>Guess the Ride!</h1>
+  <p>Welcome to our games page! Stay tuned for exciting games and challenges.</p>
+  <div id="game-board">
+    <!-- Each block will cover part of the image -->
+    <div class="block" data-id="1"></div>
+    <div class="block" data-id="2"></div>
+    <div class="block" data-id="3"></div>
+    <div class="block" data-id="4"></div>
+  </div>
+  <img id="ride-image" src="/images/ride.jpg" alt="Ride Image" style="display: none;">
+</main>
+
+<script src="/js/game.js"></script>
+
+<%- include('footer') %>
